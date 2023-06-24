@@ -1,0 +1,170 @@
+@media (max-width:1075px) {
+
+    .container{
+        padding: 25px 25px 15px 25px;
+        gap: 4px;
+    }
+
+    .logo p{
+        font-size: 22px;
+    }
+
+    .container button{
+        width: 155px;
+        height: 46px;
+    }
+
+    .intro-texts h2{
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .intro-texts h3{
+        font-size: 1rem;
+    }
+    
+
+    .intro-bx .intro-img {
+        top: 50px;
+        left: 481px;
+    }
+
+    .intro-bx .intro-img img{
+        width: 600px;
+        height: 590px;
+    }
+
+    .sponsor {
+        padding: 20px 12px;             
+    }
+
+    .sponsor ul li{
+        margin: 0 10px;
+    }
+
+    .sponsor ul li img{
+        font-size: 20px;
+    }
+
+    .myOffer{
+        margin-left: -10px;
+    }
+
+    .text-heading p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1024px) {
+    .sec-2 img{
+        display: none;
+    }
+
+    .sponsor {
+        padding: 20px 8px;             
+    }
+
+    .sponsor ul li{
+        margin: 0 5px;
+    }
+
+    .sponsor ul li img{
+        font-size: 15px;
+    }
+
+    .intro-bx .intro-img{
+        left: 456px;
+    }
+
+    .logo{
+        margin-right: 60px;
+    }
+
+}
+
+@media (max-width:867px) {
+
+    .logo{
+        margin-left: 35px;
+    }
+
+    .intro-bx .intro-img{
+        display: none;
+    }
+
+    .container ul li a, .container button{
+        display: none;
+    }
+
+    .intro-acct{
+        gap: 75px;
+    }
+
+    .sponsor .heading{
+        padding-top: 30px;
+    }
+
+    .logo{
+        margin-right: 1.2rem;
+    }
+
+    .sponsor{
+        gap: 25px;
+        padding-bottom: 20px;
+    }
+
+    .offer-text{
+        font-size: 38px;
+    }
+
+    .intro-bx{
+        justify-content: center;
+    }
+
+    .offers-col{
+        gap: 5.5rem;
+    }
+
+    .col{
+        gap: 1rem;
+    }
+
+    .col-1 .col-text h2, 
+    .col-2 .col-text h2, 
+    .col-3 .col-text h2{
+        font-size: 20px;
+    }
+    
+    .col-1 .col-text h3,
+    .col-2 .col-text h3,
+    .col-3 .col-text h3{
+        font-size: 16px;
+    }
+    
+    .flex p{
+        font-size: 20px;
+    }
+
+    .flex img{
+        width: 25px;
+    }
+
+    .col-con{
+        padding: 10px;
+    }
+
+    .flex .images{
+        display: flex;
+        align-items: center;
+    }
+
+    .flex .images img{
+        width: 15px;
+    }
+
+    .col-1 .green-text,
+    .col-2 .green-text{
+        font-size: 30px;
+    }
+
+}
